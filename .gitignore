@@ -1,0 +1,25 @@
+.DS_Store
+
+# ignore my claude code subfolder
+.claude/*
+
+bin/archive/*
+
+# Ignore the content from my own conversations.
+providers/claude/*
+providers/chatgpt/*
+providers/gemini/*
+
+!providers/claude/.gitkeep
+!providers/chatgpt/.gitkeep
+!providers/gemini/.gitkeep
+
+# Ignore the converted content from my conversations
+obsidian_export/claude/*
+obsidian_export/chatgpt/*
+obsidian_export/gemini/*
+
+!obsidian_export/claude/.gitkeep
+!obsidian_export/chatgpt/.gitkeep
+!obsidian_export/gemini/.gitkeep
+
